@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Recommendations_with_IBM</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Recommendations_with_IBM (6)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -8907,16 +8907,16 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>['pixiedust gets its first community-driven feature in 1.0.4',
- 'improving real-time object detection with yolo',
- 'pixiedust 1.0 is here! – ibm watson data lab',
+<pre>['accelerate your workflow with dsx',
+ 'challenges in deep learning',
  '520    using notebooks with pixiedust for fast, flexi...\nName: title, dtype: object',
- 'deep learning achievements over the past year ',
- 'machine learning for the enterprise',
- 'analyze accident reports on amazon emr spark',
- 'i am not a data scientist – ibm watson data lab',
- 'insights from new york car accident reports',
- 'web picks (week of 4 september 2017)']</pre>
+ 'the unit commitment problem',
+ 'using brunel in ipython/jupyter notebooks',
+ 'using rstudio in ibm data science experience',
+ 'python machine learning: scikit-learn tutorial',
+ 'predicting churn with the spss random tree algorithm',
+ 'use decision optimization to schedule league games',
+ 'using github for project control in dsx']</pre>
 </div>
 </div>
 </div>
@@ -9096,10 +9096,10 @@ The 3 most similar users to user 46 are: [4201, 3782, 23]
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>The top 10 recommendations for user 20 are the following article ids:
-['51.0', '1059.0', '273.0', '111.0', '382.0', '1330.0', '763.0', '967.0', '1367.0', '1162.0']
+['302.0', '1396.0', '33.0', '273.0', '464.0', '1157.0', '1432.0', '607.0', '1314.0', '111.0']
 
 The top 10 recommendations for user 20 are the following article names:
-['modern machine learning algorithms', 'airbnb data for analytics: amsterdam calendar', 'statistical bias types explained (with examples)', 'tidy up your jupyter notebooks with scripts', 'what is text analytics?', 'insights from new york car accident reports', 'load data into rstudio for analysis in dsx', 'ml algorithm != learning machine', 'programmatic evaluation using watson conversation', 'analyze energy consumption in buildings']
+['accelerate your workflow with dsx', 'times world university ranking analysis', 'using brunel in ipython/jupyter notebooks', 'statistical bias types explained (with examples)', 'use ibm data science experience to detect time series anomalies', 'airbnb data for analytics: washington d.c. listings', 'visualize data with the matplotlib library', 'recommendation system algorithms – stats and bots', 'healthcare python streaming application demo', 'tidy up your jupyter notebooks with scripts']
 </pre>
 </div>
 </div>
@@ -9184,7 +9184,8 @@ The top 10 recommendations for user 20 are the following article names:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Provide your response here.</strong></p>
+<p><strong>Provide your response here.</strong>
+<strong>TODO</strong></p>
 <ul>
 <li>If a new user comes along, it is likely that we have no information about them that can be used for collaborative filtering.</li>
 <li>In this case, we use an "unconditional" recommendation by simply providing a list of the top 10 most popular articles.</li>
@@ -9858,10 +9859,10 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Replace the values in the dictionary below</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">test_idx</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">train_idx</span><span class="p">))</span> 
-<span class="n">b</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">known_arts</span><span class="p">)</span>
-<span class="n">c</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">known_users</span><span class="p">)</span> 
-<span class="n">d</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">test_arts</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">train_arts</span><span class="p">))</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">662</span> 
+<span class="n">b</span> <span class="o">=</span> <span class="mi">574</span> 
+<span class="n">c</span> <span class="o">=</span> <span class="mi">20</span> 
+<span class="n">d</span> <span class="o">=</span> <span class="mi">0</span> 
 
 
 <span class="n">sol_4_dict</span> <span class="o">=</span> <span class="p">{</span>
@@ -10048,6 +10049,29 @@ The top 10 recommendations for user 20 are the following article names:
 <li>In our test case, the total number of known users is 20 (out of 682).</li>
 <li>With a few latent features, we can make generally accurate recommendations for this minority of users.</li>
 <li>For users that we have not observed before, recommendations based on the (unconditional) popularity of articles are probably the best that we can do without any additional information.</li>
+</ul>
+<p><strong>Reviewer's comment:</strong> <em>Please provide a detailed explanation for the downward curve observed in the test accuracy as the number of latent features increases. Consider factors such as overfitting, model complexity, and the trade-off between bias and variance in your discussion. Additionally, explore potential solutions or techniques to mitigate the decrease in test accuracy and improve the overall performance of the SVD model. Your analysis will help gain insights into the behavior of the model and provide valuable recommendations for further improvements.</em></p>
+<ul>
+<li>Training performance increases as we increase the number of latent features in the SVD decomposition. This is expected, as there will be more information available for the recomposed matrix to reflect the original matrix.</li>
+<li>As well, testing performance decreases as we increase the number of latent features.  This is indication of overfitting: as we increase the number of latent features, we are more closely recreating the training user-item matrix.</li>
+<li>The first solution to this situation would be to regularize. In this case, regularization can be achieved by limiting the number of latent factors to use.</li>
+</ul>
+<p><strong>Reviewer's comment:</strong> <em>The question we are asking in the second part seeks to know how we will set up an experiment that could help us evaluate the performance of the current solution.</em> <em>We need to focus on designing an experiment that can effectively evaluate the performance of the recommendation engine in practical scenarios. Consider discussing key aspects such as defining evaluation metrics, setting up control groups, and implementing A/B testing or randomized controlled trials. Additionally, explore the potential challenges and limitations of conducting such experiments and propose strategies to mitigate them.</em></p>
+<ul>
+<li>In order to determine if the recommendations made with the some of the systems discussed or proposed above are an improvement, we can set up an experiment to evaluate the performance of the current solution against a potential alternative. To be clear, the current solution is based on the SVD decomposition of a user-item matrix with popularity based recommendations if we have no prior knowledge of a user. The alternative could be, for example, a content-based recommender.</li>
+<li>The experiment would need to randomize users into:<ul>
+<li>A control group which would receive recommendations using the current system, and</li>
+<li>A treatment group would receive recommendations based on the alternative system.</li>
+</ul>
+</li>
+<li>Users should be split proportionally to their known-user status. That is, we must be careful to have equal proportions of known users on each of the control and treatment groups so we can perform the comparison.</li>
+<li>The behaviour of our users would be recorded and the recommendations provided would need to be assessed using a performance metric.</li>
+<li>One challenge for this approach would be the definition of "reading" an article. The fact that a user opens or downloads an article may not clearly indicate that it was of interest or that it was actually read. To mitigate this concern we can:<ul>
+<li>Ask the user for a rating of the recommendation.</li>
+<li>Observe the amount of time that a user spent in the article's page and only count those stays that were above a certain threshold.</li>
+</ul>
+</li>
+<li>A second challenge would be the heterogenity of users: perhaps distinguishing between known and unknown users is not enough to capture other relevant factors that may drive their behaviour (for example, educational background, level of expertise in the subject of the articles, reading habits, etc).  The simplest approach to solve this concern would be to increase the sample size and assume that these other characteristics will be randomly distributed among the population.</li>
 </ul>
 </div>
 </div>
